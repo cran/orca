@@ -1,0 +1,12 @@
+ebb9c804e474147e0e894c6c164e81ef *DESCRIPTION
+4d86cac7f120146195999bb600adef5f *NAMESPACE
+b198eca3bece6890761d1f56a8b2801f *R/orca.R
+3230997665f150435b23b4b8af5528ed *data/karate.txt.gz
+d5bcac8b4e69dab4482689d75852abc6 *inst/CITATION
+cca34b0fbe25972617c08f2da170cf48 *man/karate.Rd
+d0e91d7f8effce38d083749637f95bb7 *man/orca.Rd
+11c9423edb28ffd42aed946304ea262b *src/count.cpp
+67c48b533af3cbde33dc4862d36facc4 *tests/karate-as-matrix.R
+aba0a8be01efeeed870e293eea63744c *tests/karate-as-matrix.Rout.save
+53e2fd05784edd7302080f5d359f8529 *tests/karate.R
+f52a557247caaec8deb8f2d8ceface63 *tests/karate.Rout.save
