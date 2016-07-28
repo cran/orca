@@ -24,7 +24,7 @@ ecount5(graph)
 A numeric matrix or orbit counts. Rows correspond to graph nodes or edges in the same order as on the input, and the columns corresponding to orbits.
 }
 \references{
-Tomaz Hocevar, Janez Demsar (2014): A combinatorial approach to graphlet counting. Bioinformatics.
+Tomaz Hocevar, Janez Demsar (2016): Computation of Graphlet Orbits for Nodes and Edges in Sparse Graphs. Journal of Statistical Software, 71(10), pp. 1-24.
 }
 \author{
 Tomaz Hocevar and Janez Demsar}

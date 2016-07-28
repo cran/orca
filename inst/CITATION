@@ -1,19 +1,23 @@
-citHeader("To cite package 'orca' in publications use:")
+bibentry(bibtype = "Article",
+  title        = "Computation of Graphlet Orbits for Nodes and Edges in Sparse Graphs",
+  author       = c(person(given = "Toma\\v{z}",
+                          family = "Ho\\v{c}evar",
+                          email = "tomaz.hocevar@fri.uni-lj.si"),
+                   person(given = "Janez",
+                          family = "Dem\\v{s}ar",
+                          email = "janez.demsar@fri.uni-lj.si")),
+  journal      = "Journal of Statistical Software",
+  year         = "2016",
+  volume       = "71",
+  number       = "10",
+  pages        = "1--24",
+  doi          = "10.18637/jss.v071.i10",
 
-vers <- paste("R package version", meta$Version)
-
-citEntry(entry = "article",
-         title = "A combinatorial approach to graphlet counting",
-         author = personList(as.person("Toma\v{z} Ho\v{c}evar"),
-                             as.person("Janez Dem\v{s}ar")),
-         journal = "Bioinformatics",
-         doi = "10.1093/bioinformatics/btt717",
-         url = "http://bioinformatics.oxfordjournals.org/content/early/2014/01/11/bioinformatics.btt717.abstract",
-         year = "2014",
-         note = vers,
-
-         textVersion =
-         paste0("Tomaz Hocevar, Janez Demsar (2014): ",
-                "A combinatorial approach to graphlet counting.",
-                "Bioinformatics.")
+  header       = "To cite orca in publications use:",
+  textVersion  =
+  paste("Toma\v{z} Ho\v{c}evar, Janez Dem\v{s}ar (2016).",
+        "Computation of Graphlet Orbits for Nodes and Edges in Sparse Graphs.",
+        "Journal of Statistical Software, 71(10), 1-24.",
+        "doi:10.18637/jss.v071.i10")
 )
+
