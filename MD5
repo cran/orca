@@ -1,5 +1,5 @@
-9a34c7b14d0564c1368b82cf8c4c6bad *DESCRIPTION
-4d86cac7f120146195999bb600adef5f *NAMESPACE
+2a07da0fc6e0be31d4a668303d836e6a *DESCRIPTION
+7dd592af8c5857d6b1b99da9bc5065d6 *NAMESPACE
 a3ad529121da0151d4c30d6cee44267a *R/orca.R
 3230997665f150435b23b4b8af5528ed *data/karate.txt.gz
 76003c39075e06328258619d75cd5170 *data/petersen.txt.gz
@@ -11,7 +11,7 @@ fcf8e98c64836031787ec506404585a5 *data/yeast.txt.gz
 8cd9e3372d695a9636e43d14032e64e3 *man/petersen.Rd
 cf637008fcefee640ebc910059c61a04 *man/usastates.Rd
 0e1f04fae541e4b62ffae8d33f78e360 *man/yeast.Rd
-c5f439ffd9c84de569ac3e569b58eab1 *src/count.cpp
+4cea2a5259039b2db1b16117904217be *src/count.cpp
 67c48b533af3cbde33dc4862d36facc4 *tests/karate-as-matrix.R
 03e8e6b791dea2a9b416c1560c896f91 *tests/karate-as-matrix.Rout.save
 53e2fd05784edd7302080f5d359f8529 *tests/karate.R

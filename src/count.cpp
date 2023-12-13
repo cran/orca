@@ -20,6 +20,7 @@
 #include <unordered_map>
 #include <algorithm>
 
+#include <stdlib.h>
 #include "Rinternals.h"
 #include <Rdefines.h>
 #include <Rmath.h>
@@ -394,7 +395,7 @@ extern "C" void count4(PAIR * const p_edges, int const * const dim_edges, double
         }
     }
     catch (char const *s) {
-        error(s);
+        error("%s", s);
     }
 }
 
@@ -553,7 +554,7 @@ extern "C" void ecount4(PAIR * const p_edges, int const * const dim_edges, doubl
         }
     }
     catch (char const *s) {
-        error(s);
+        error("%s", s);
     }
 
 }
@@ -953,7 +954,7 @@ extern "C" void count5(PAIR * const p_edges, int const * const dim_edges, double
         }
     }
     catch (char const *s) {
-        error(s);
+        error("%s", s);
     }
 }
 
@@ -1448,7 +1449,25 @@ extern "C" void count5(PAIR * const p_edges, int const * const dim_edges, double
         }
     }
     catch (char const *s) {
-        error(s);
+        error("%s", s);
     }
 
+}
+
+
+
+// Register
+
+static const R_CMethodDef CEntries[] = {
+    {"count4",  (DL_FUNC) &count4,  3},
+    {"count5",  (DL_FUNC) &count5,  3},
+    {"ecount4", (DL_FUNC) &ecount4, 3},
+    {"ecount5", (DL_FUNC) &ecount5, 3},
+    {NULL, NULL, 0}
+};
+
+void R_init_orca(DllInfo *dll)
+{
+    R_registerRoutines(dll, CEntries, NULL, NULL, NULL);
+    R_useDynamicSymbols(dll, FALSE);
 }
