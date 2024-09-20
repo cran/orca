@@ -19,8 +19,8 @@
 #include <set>
 #include <unordered_map>
 #include <algorithm>
-
 #include <stdlib.h>
+
 #include "Rinternals.h"
 #include <Rdefines.h>
 #include <Rmath.h>
@@ -395,7 +395,7 @@ extern "C" void count4(PAIR * const p_edges, int const * const dim_edges, double
         }
     }
     catch (char const *s) {
-        error("%s", s);
+        Rf_error("%s", s);
     }
 }
 
@@ -554,7 +554,7 @@ extern "C" void ecount4(PAIR * const p_edges, int const * const dim_edges, doubl
         }
     }
     catch (char const *s) {
-        error("%s", s);
+        Rf_error("%s", s);
     }
 
 }
@@ -954,7 +954,7 @@ extern "C" void count5(PAIR * const p_edges, int const * const dim_edges, double
         }
     }
     catch (char const *s) {
-        error("%s", s);
+        Rf_error("%s", s);
     }
 }
 
@@ -1449,7 +1449,7 @@ extern "C" void count5(PAIR * const p_edges, int const * const dim_edges, double
         }
     }
     catch (char const *s) {
-        error("%s", s);
+        Rf_error("%s", s);
     }
 
 }
